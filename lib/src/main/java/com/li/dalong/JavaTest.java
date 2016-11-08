@@ -2,6 +2,7 @@ package com.li.dalong;
 
 public class JavaTest {
 
+    //分解质因数
     private static int NMU = 385;
 
     public static void main(String[] args) {
