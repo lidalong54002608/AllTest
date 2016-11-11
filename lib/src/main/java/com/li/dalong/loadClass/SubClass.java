@@ -1,4 +1,4 @@
-package com.li.dalong.superTest;
+package com.li.dalong.loadClass;
 
 /**
  * Created by Administrator on 2016/11/11.

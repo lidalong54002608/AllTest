@@ -1,4 +1,4 @@
-package com.li.dalong;
+package com.li.dalong.test;
 
 public class JavaTest {
 
