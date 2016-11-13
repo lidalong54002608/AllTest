@@ -1,7 +1,6 @@
 package com.li.dalong.tree;
 
 import java.util.ArrayList;
-import java.util.Deque;
 import java.util.LinkedList;
 
 /**
@@ -34,12 +33,11 @@ public class PrintTree {
 
     public void printTree (TreeNode root) {
         LinkedList<TreeNode> list = new LinkedList<TreeNode>();
-        list.add(0,root);
+        list.offer(root);
         ArrayList<Integer> result = new ArrayList<Integer>();
         while (!list.isEmpty()) {
-            TreeNode node = list.get(0);
+            TreeNode node = list.poll();
             result.add(node.val);
-            list.remove(0);
             System.out.print(node.val);
             if(node.left != null) {
                 list.add(node.left);
