@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        View v;
     }
 
     private void m1(String s) {
