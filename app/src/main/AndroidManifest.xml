@@ -27,8 +27,16 @@
         <activity android:name=".activity.ActivityB"
             android:label="@string/button_text_2"
             android:theme="@style/AppTheme.NoActionBar">
-
         </activity>
+        <activity android:name=".aidl.client.ClientActivity"
+            android:label="@string/button_text_2"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <service android:name=".aidl.CalcService">
+            <intent-filter>
+                <action android:name="com.sanji.li.calc" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
