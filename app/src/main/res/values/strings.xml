@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Test_HelloWrold</string>
     <string name="action_settings">Settings</string>
+    <string name="button_text_1">next</string>
+    <string name="button_text_22">back</string>
+    <string name="button_text_2">replace2</string>
+    <string name="button_text_3">replace3</string>
 </resources>
